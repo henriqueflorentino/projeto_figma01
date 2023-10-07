@@ -1,0 +1,82 @@
+:root{
+    --primary-color: #004dda;
+    --dark: #5a5a5f;
+    --light: #fff;
+    --grey: #c4c4c4;
+    --default-pad: 2.5rem;
+    --medium-pad: calc(var(--default-pad) / 2);
+    --small-pad: calc(var(--medium-pad) / 2);
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    color: var(--dark);
+    display: flex;
+}
+
+/*<nav class="main_nav">*/
+.main_nav{
+    background-color: yellow;
+    padding: var(--medium-pad) 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light);
+}
+.main_nav > a{
+    padding: var(--default-pad);
+
+}
+
+/*<div class="main_content">*/
+.main_content{
+    background-color: orange;
+    flex-grow: 1;
+}
+
+.top_nav{
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: var(--default-pad);
+    padding: var(--medium-pad) var(--default-pad);
+}
+
+.topnav_menu li{
+    display: inline-block;
+    list-style: none;
+}
+
+main{
+    padding: var(--default-pad);
+    display: flex;
+    flex-direction: column;
+    gap: var(--default-pad)
+}
+
+.topnav_menu, .menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menus{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--default-pad);
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--medium-pad);
+    background-color: var(--light);
+}
