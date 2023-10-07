@@ -80,3 +80,46 @@ main{
     padding: var(--medium-pad);
     background-color: var(--light);
 }
+
+.separate{
+    width: 1px;
+    border-left: 2px solid var(--grey);
+    align-self: stretch;
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: var(--light);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: var(--small-pad) var(--medium-pad)
+}
+
+.charts{
+    display: flex;
+    gap: var(--default-pad)
+}
+
+.chart{
+    flex-grow: 1;
+}
+
+.number{
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 0 .5rem;
+}
+
+.menus .menus:first-child{
+    border-bottom: 1px solid var(--grey);
+}
+
+.menus .menu:last-child{
+    position: fixed;
+    left: var(--small-pad);
+    bottom: var(--medium-pad);
+}
