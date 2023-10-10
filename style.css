@@ -49,7 +49,7 @@ body{
 /*<nav class="main_nav">*/
 .main_nav{
     
- 
+    padding: var(--default-pad) 1 0;
     display: flex;
     flex-direction: column;
     background-color: var(--light);
