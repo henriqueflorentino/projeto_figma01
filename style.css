@@ -24,6 +24,7 @@ body{
     min-height: 100%;
     
     
+    
 }
 
 .topnav_menu, .menu{
@@ -88,6 +89,7 @@ body{
     align-items: center;
     padding: var(--medium-pad) var(--default-pad);
     
+    
 }
 
  
@@ -140,12 +142,12 @@ img{
 }
 
 .charts{
-    max-width: 1120px; /* Largura máxima de 50 pixels (ajuste conforme necessário) */
-    max-height: 1120px; /* Altura máxima de 50 pixels (ajuste conforme necessário) */
-    display: block; /* Remove espaço extra sob a imagem */
-    margin:  auto; /* Centralize a imagem horizontalmente no contêiner */
+    max-width: 1120px; 
+    max-height: 1120px; 
+    display: block; 
+    margin:  auto; 
     display: flex;
-    gap: 50px; /* Espaço horizontal entre as imagens */
+    gap: 50px; 
     
     
 }
@@ -163,7 +165,7 @@ img{
 }
 
 .menus .menu:first-child{
-    border-bottom: 1px solid var(--grey);
+    border-bottom: 3px solid var(--grey);
 }
 
 .menus .menu:Last-child{
@@ -182,7 +184,7 @@ img{
 .icone img {
     width: 24px;
     height: 24px;
-    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    margin-right: 10px; 
     vertical-align: middle;
     
 }
@@ -203,13 +205,13 @@ img{
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 175%; /* 24.5px */
+    line-height: 175%; 
 }
 
 .main-chart {
-    max-width: 200%; /* A imagem não ficará maior do que a largura do contêiner */
-    max-height: 100%; /* A imagem não ficará maior do que a altura do contêiner */
-    display: block; /* Remove espaço extra sob a imagem */
-    margin: 0 auto; /* Centralize a imagem horizontalmente no contêiner */
+    max-width: 200%; 
+    max-height: 100%; 
+    display: block;
+    margin: 0 auto; 
     display: flex;
 }
